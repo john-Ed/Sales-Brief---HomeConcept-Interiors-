@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"HomeConcept SalesBrief"},{"path":"/start","title":"Customer enquiry"},{"path":"/enquiry/:productSlug","title":"Furniture enquiry"},{"path":"/dashboard","title":"Sales dashboard"},{"path":"/products","title":"Products"}]}
