@@ -13,8 +13,8 @@ const makeEnquiry = (data: Omit<Enquiry, 'productImage'> & { productImage?: stri
 
 export const seedEnquiries: Enquiry[] = [
   makeEnquiry({
-    id: 'enq-01', customerName: 'Amara Okafor', phone: '08034567891', source: 'Instagram', productId: 'prod-sofa', productName: 'Luxe 3-Seater Velvet Sofa', status: 'New', submittedAt: '2026-10-26T09:20:00.000Z',
-    answers: { customerName: 'Amara Okafor', phone: '08034567891', roomType: 'Living room', dimensions: '4.2m × 3.6m', style: 'Modern', colorMaterial: 'Warm grey velvet', budget: '₦500k–₦1M', state: 'Lagos', area: 'Lekki Phase 1', floor: '3rd floor · lift available', timeline: 'Within 2 weeks' },
+    id: 'enq-01', customerName: 'Edwin John', phone: '08034567891', source: 'Instagram', productId: 'prod-sofa', productName: 'Luxe 3-Seater Velvet Sofa', status: 'New', submittedAt: '2026-10-26T09:20:00.000Z',
+    answers: { customerName: 'Edwin John', phone: '08034567891', roomType: 'Living room', dimensions: '4.2m × 3.6m', style: 'Modern', colorMaterial: 'Warm grey velvet', budget: '₦500k–₦1M', state: 'Lagos', area: 'Lekki Phase 1', floor: '3rd floor · lift available', timeline: 'Within 2 weeks' },
     transcript: [{ role: 'assistant', text: 'What does your room look like and what would feel right in it?' }, { role: 'customer', text: 'Small living room, about 4.2 by 3.6 metres. Modern and warm grey velvet, please.' }, { role: 'assistant', text: 'Where should we deliver, and what is your budget range?' }, { role: 'customer', text: 'Lekki Phase 1, third floor with a lift. Around ₦500k–₦1M.' }],
   }),
   makeEnquiry({
